@@ -1,5 +1,6 @@
+import 'package:a4b001/resposive/responsuve_ui.dart';
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'todo_app/home_page.dart';
 
 main() {
   runApp(MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'to do app',
-      home: HomePage(),
+      home: ResponsivePage(),
     );
   }
 }
